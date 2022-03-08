@@ -14,8 +14,8 @@
     <div class="header-wrapper">
       <div class="logo-menu">
         <div class="logo">
-          <a href="#"></a>
-          <img src="../mq-diplom/svg/noemi-logo.svg">
+          <a href="#">
+            <img src="../mq-diplom/svg/noemi-logo.svg">
           </a>
         </div>
         <div class="header-burger">
@@ -128,7 +128,7 @@
       </article>
       <article class="article">
         <div class="article-image">
-          <img src="../mq-diplom/images/last-post2.jpg" alt="фото">
+          <img src="./images/last-post2.jpg" alt="фото">
         </div>
         <div class="article-content">
           <ul class="article-tags">
@@ -154,7 +154,7 @@
       </article>
       <article class="article">
         <div class="article-image">
-          <img src="../mq-diplom/images/last-post3.jpg" alt="фото">
+          <img src="./images/last-post3.jpg" alt="фото">
         </div>
         <div class="article-content">
           <ul class="article-tags">
@@ -178,7 +178,7 @@
       </article>
       <article class="article">
         <div class="article-image">
-          <img src="../mq-diplom/images/last-post4.jpg" alt="фото">
+          <img src="./images/last-post4.jpg" alt="фото">
         </div>
         <div class="article-content">
           <ul class="article-tags">
@@ -205,7 +205,7 @@
       </article>
       <article class="article">
         <div class="article-image">
-          <img src="../mq-diplom/images/last-post5.jpg" alt="фото">
+          <img src="./images/last-post5.jpg" alt="фото">
         </div>
         <div class="article-content">
           <ul class="article-tags">
@@ -239,10 +239,9 @@
         <div class="new-articles">
           <article class="aside-article">
             <figure class="aside-figure">
-              <img class="aside-image" src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg"
-                alt="фото">
+              <img class="aside-image" src="./images/2.jpg" alt="фото">
             </figure>
-            <div class="article-info">
+            <div class="aside-article-info">
               <time datetime="2019-06-14" class="info-date aside-date">14 июня 2019</time>
               <h4>
                 <a href="#" class="aside_post-title">10 мест, ради которых стоит проснуться</a>
@@ -251,8 +250,7 @@
           </article>
           <article class="aside-article">
             <figure class="aside-figure">
-              <img class="aside-image" src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg"
-                alt="фото">
+              <img class="aside-image" src="./images/151.jpg" alt="фото">
             </figure>
             <div class="aside-article-info">
               <time datetime="2019-06-14" class="info-date aside-date">14 июня 2019</time>
@@ -263,8 +261,7 @@
           </article>
           <article class="aside-article">
             <figure class="aside-figure">
-              <img class="aside-image" src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg"
-                alt="фото">
+              <img class="aside-image" src="./images/45.jpg" alt="фото">
             </figure>
             <div class="aside-article-info">
               <time datetime="2019-06-14" class="info-date aside-date">14 июня 2019</time>
@@ -275,8 +272,7 @@
           </article>
           <article class="aside-article">
             <figure class="aside-figure">
-              <img class="aside-image" src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg"
-                alt="фото">
+              <img class="aside-image" src="./images/501.jpg" alt="фото">
             </figure>
             <div class="aside-article-info">
               <time datetime="2019-06-14" class="info-date aside-date">14 июня 2019</time>
@@ -287,8 +283,7 @@
           </article>
           <article class="aside-article">
             <figure class="aside-figure">
-              <img class="aside-image" src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg"
-                alt="фото">
+              <img class="aside-image" src="./images/7.jpg" alt="фото">
             </figure>
             <div class="aside-article-info">
               <time datetime="2019-06-14" class="info-date aside-date">14 июня 2019</time>
@@ -385,48 +380,150 @@
     <ul class="works__list">
       <li class="work__example">
         <picture class="work__image">
-          <source srcset="./images/shop-item-mobile1.jpg" media="(max-width=640px)">
-          <source srcset="./images/shop-item-tablet1.jpg" media="(max-width=1199px)">
-          <source srcset="./images/shop-item-desk1.jpg" media="(min-width=1200px)">
+          <source srcset="./images/shop-item-mobile1.jpg" media="(max-width:640px)">
+          <source srcset="./images/shop-item-tablet1.jpg" media="(max-width:1199px)">
+          <source srcset="./images/shop-item-desk1.jpg" media="(min-width:1200px)">
           <img src="./images/shop-item-mobile1.jpg" alt="фото набора подушек">
-          </pictire>
+        </picture>
+        <div class="work__info">
           <h4 class="work-title">подушки на диван</h4>
           <p class="work-description">Набор из двух подушек с модными принтами. Видео о создании <a href="#">здесь</a>.
           </p>
-          <button class="shop__button">в магазин
-            <span class="visually-hidden">в магазин</span>
-          </button>
+          <div class="buying__info">
+            <div class="price__tag">
+              <div class="previous-price">1000 ₽</div>
+              <div class="current-price">800 ₽</div>
+            </div>
+            <div class="shop__button">
+              <a href="#">
+                <span>в магазин</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </li>
       <li class="work__example">
         <picture class="work__image">
-          <source srcset="./images/shop-item-mobile2.jpg" media="(max-width=640px)">
-          <source srcset="./images/shop-item-tablet2.jpg" media="(max-width=1199px)">
-          <source srcset="./images/shop-item-desk2.jpg" media="(min-width=1200px)">
+          <source srcset="./images/shop-item-mobile2.jpg" media="(max-width:640px)">
+          <source srcset="./images/shop-item-tablet2.jpg" media="(max-width:1199px)">
+          <source srcset="./images/shop-item-desk2.jpg" media="(min-width:1200px)">
           <img src="./images/shop-item-mobile2.jpg" alt="фото набора подушек">
-          </pictire>
+        </picture>
+        <div class="work__info">
           <h4 class="work-title">кукла "зайчик"</h4>
           <p class="work-description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
               href="#">весенняя серия постов</a> в блоге и несколько подкастов.</p>
-          <button class="shop__button">в магазин
-            <span class="visually-hidden">в магазин</span>
-          </button>
+          <div class="buying__info">
+            <div class="current-price">3500 ₽</div>
+            <div class="shop__button">
+              <a href="#">
+                <span>в магазин</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </li>
       <li class="work__example">
         <picture class="work__image">
-          <source srcset="./images/shop-item-mobile3.jpg" media="(max-width=640px)">
-          <source srcset="./images/shop-item-tablet3.jpg" media="(max-width=1199px)">
-          <source srcset="./images/shop-item-desk3.jpg" media="(min-width=1200px)">
+          <source srcset="./images/shop-item-mobile3.jpg" media="(max-width:640px)">
+          <source srcset="./images/shop-item-tablet3.jpg" media="(max-width:1199px)">
+          <source srcset="./images/shop-item-desk3.jpg" media="(min-width:1200px)">
           <img src="./images/shop-item-mobile3.jpg" alt="фото набора подушек">
-          </pictire>
+        </picture>
+        <div class="work__info">
           <h4 class="work-title">шестиугольная рама</h4>
           <p class="work-description">Необычная рамка для украшения дома из видео <a href="#">«Как сделать рамку из
               подручных средств за 30 минут»</a></p>
-            <button class="shop__button">в магазин
-              <span class="visually-hidden">в магазин</span>
-            </button>
+          <div class="buying__info">
+            <div class="price__tag">
+              <div class="previous-price">500 ₽</div>
+              <div class="current-price">400 ₽</div>
+            </div>
+            <div class="shop__button">
+              <a href="#">
+                <span>в магазин</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </li>
     </ul>
   </section>
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <address class="address">
+        <ul class="social-links">
+          <li class="social-link">
+            <a href="#" class="social-link-ref twitter">
+              <span class="social-link-text">twitter<span>
+            </a>
+          </li>
+          <li class="social-link">
+            <a href="#" class="social-link-ref pinterest">
+              <span class="social-link-text">pinterest<span>
+            </a>
+          </li>
+          <li class="social-link">
+            <a href="#" class="social-link-ref facebook">
+              <span class="social-link-text">facebook<span>
+            </a>
+          </li>
+          <li class="social-link">
+            <a href="#" class="social-link-ref instagram">
+              <span class="social-link-text">instagram<span>
+            </a>
+          </li>
+          <li class="social-link">
+            <a href="#" class="social-link-ref tumbler">
+              <span class="social-link-text">tumbler<span>
+            </a>
+          </li>
+        </ul>
+      </address>
+      <div class="copyright">
+        <a href="#" class="cipyright-link">
+          <span class="copyright-text">Copyright © 2009-2019 City Blog LLC.</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div class="popup__hidden">
+    <div class="popup__form">
+      <a class="popup__close" href="#">
+        <img src="./svg/form-x.svg" alt="закрыть">
+      </a>
+      <div class="popup__content">
+        <h2 class="popup__title">ваш фидбек</h2>
+        <form>
+          <label class="popup__question">
+            <div>Как часто вы заходите на сайт?</div>
+            <select class="popup__answer">
+              <option selected>Почти каждый день</option>
+              <option>Раз в неделю</option>
+              <option>Раз в месяц</option>
+            </select>
+          </label>
+          <div class="popup__radio">
+            <label>
+              <div class="popup__question">Вы подписаны на e-mail рассылку?</div>
+              <label>
+                <input class="radio" type="radio" name="radio-group" required>
+                <span class="radio__answer">Да</span>
+              </label>
+              <label>
+                <input class="radio" type="radio" name="radio-group" required>
+                <span class="radio__answer">Нет</span>
+              </label>
+          </div>
+          <label>
+            <div class="popup__question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</div>
+            <textarea class="field" placeholder="Может, больше рецептов?" required></textarea>
+          </label>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
