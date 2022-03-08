@@ -1073,7 +1073,7 @@ label div {
 
 @media (orientation: landscape) and (min-width: 641px) and (max-width: 1199px) {
   .trends__article {
-    width: calc(25% - 3px * 3);
+    width: calc(25% - 2.25px);
   }
 }
 
@@ -1135,7 +1135,7 @@ label div {
   }
 
   .trends__article {
-    width: calc(25% - 3px * 3);
+    width: calc(25% - 2.25px);
   }
 
   .article__title {
