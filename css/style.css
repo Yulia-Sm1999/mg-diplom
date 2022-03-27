@@ -258,7 +258,7 @@ body {
   text-decoration: underline;
 }
 
-.article__title {
+.trends__article-title {
   line-height: 1.25;
 }
 
@@ -952,7 +952,7 @@ body {
     width: calc(50% - 3px);
   }
 
-  .article__title {
+  .trends__article-title {
     line-height: 1.29;
   }
 
@@ -1127,7 +1127,7 @@ body {
     width: calc(25% - 2.25px);
   }
 
-  .article__title {
+  .trends__article-title {
     line-height: 1.2;
   }
 
